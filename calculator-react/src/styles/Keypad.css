@@ -1,0 +1,37 @@
+.keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 8px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    cursor: pointer;
+    border: none;
+    background: #333333;
+    color: #FFFFFF;
+    font-weight: 500;
+    border-radius: 50%;
+    font-size: 32px;
+    height: 75px;
+    width: 75px;
+    transition: filter 0.3s ease-in;
+
+    &:active,
+    &:focus {
+        filter: brightness(120%);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+
+@media only screen and (min-width: 1280px) {
+
+}

@@ -1,0 +1,14 @@
+.display {
+    background-color: #fff;
+    color: #000;
+    font-size: 4.5rem;
+    height: 200px;
+    margin-bottom: 20px;
+    padding-right: 16px;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    white-space: nowrap;
+    font-weight: 300;
+}

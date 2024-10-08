@@ -1,0 +1,11 @@
+.calculator {
+    background-color: grey;
+    border-radius: 20px;
+    padding: 20px 10px;
+    overflow: hidden;
+
+    @media only screen and (min-width: 468px) {
+        max-width: 380px;
+        margin: 60px auto;
+    }
+}
